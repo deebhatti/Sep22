@@ -16,6 +16,8 @@ public class VerifyErrorMessage {
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 
 		driver.get("https://facebook.com");
+		
+		//Adding a comment in line 20 
 
 		driver.findElement(By.id("email")).sendKeys("batman@gmail.com"); //default polling period = 500 milli seconds
 
